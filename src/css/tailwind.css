@@ -1,0 +1,61 @@
+.text-10px {
+    font-size: 10px /* 0.625rem */;
+}
+.max-w-6 {
+    max-width: 6rem /* 96px */;
+}
+.max-w-9 {
+    max-width: 9rem /* 144px */;
+}
+.max-w-10 {
+    max-width: 10rem /* 160px */;
+}
+.max-w-11 {
+    max-width: 11rem; /* 176px */
+}
+.max-w-12 {
+    max-width: 12rem /* 192px */;
+}
+.max-w-13 {
+    max-width: 13rem /* 208px */;
+}
+.max-w-14 {
+    max-width: 14rem /* 224px */;
+}
+.max-w-15 {
+    max-width: 15rem /* 240px */;
+}
+.max-w-25 {
+    max-width: 25%;
+}
+.max-h-34 {
+    max-width:  8.5rem /* 136px */;
+}
+/* .swiper-slide {
+    width: 80%;
+}
+.swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 40%;
+} */
+/* .swiper-slide {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    width: 60%;
+}
+.swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 20%;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
