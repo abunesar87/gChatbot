@@ -1,14 +1,11 @@
 {
   "name": "@abunesar87/chatbot",
   "version": "0.0.1",
-
-
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name g-chatbot",
     "lint": "vue-cli-service lint"
   },
-
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^1.0.6",
     "@vue/compiler-sfc": "^3.0.11",
@@ -56,5 +53,13 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "bugs": {
+    "url": "https://github.com/abunesar87/chatbot/issues"
+  },
+  "homepage": "https://github.com/abunesar87/chatbot#readme",
+  "main": "babel.config.js",
+  "author": "abunesar87",
+  "license": "ISC"
 }
