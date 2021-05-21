@@ -1,4 +1,4 @@
-# gigalogy-chatbot
+# chatbot
 
 ## Project setup
 ```
