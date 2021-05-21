@@ -1,5 +1,5 @@
 {
-  "name": "chatbot",
+  "name": "@abunesar87/chatbot",
   "version": "0.0.1",
 
 
@@ -48,6 +48,9 @@
       "parser": "babel-eslint"
     },
     "rules": {}
+  },
+  "repository": {
+    "url": "git://github.com/abunesar87/chatbot.git"
   },
   "browserslist": [
     "> 1%",
