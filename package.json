@@ -59,7 +59,7 @@
     "url": "https://github.com/abunesar87/g-chatbot/issues"
   },
   "homepage": "https://github.com/abunesar87/g-chatbot#readme",
-  "main": "babel.config.js",
+  "main": "./dist/g-chatbot.common.js",
   "author": "abunesar87",
   "license": "ISC"
 }
