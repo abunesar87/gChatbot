@@ -1,6 +1,6 @@
 {
   "name": "@abunesar87/g-chatbot",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name g-chatbot",
@@ -61,6 +61,7 @@
   "homepage": "https://github.com/abunesar87/g-chatbot#readme",
   "main": "dist/g-chatbot.umd.js",
   "unpkg": "dist/g-chatbot.min.js",
+  "jsdelivr": "dist/g-chatbot.min.js",
   "author": "abunesar87",
   "license": "ISC"
 }
