@@ -1,5 +1,5 @@
 {
-  "name": "@abunesar87/chatbot",
+  "name": "@abunesar87/g-chatbot",
   "version": "0.0.1",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -47,7 +47,7 @@
     "rules": {}
   },
   "repository": {
-    "url": "git://github.com/abunesar87/chatbot.git"
+    "url": "git://github.com/abunesar87/g-chatbot.git"
   },
   "browserslist": [
     "> 1%",
@@ -56,9 +56,9 @@
   ],
   "description": "## Project setup ``` npm install ```",
   "bugs": {
-    "url": "https://github.com/abunesar87/chatbot/issues"
+    "url": "https://github.com/abunesar87/g-chatbot/issues"
   },
-  "homepage": "https://github.com/abunesar87/chatbot#readme",
+  "homepage": "https://github.com/abunesar87/g-chatbot#readme",
   "main": "babel.config.js",
   "author": "abunesar87",
   "license": "ISC"
