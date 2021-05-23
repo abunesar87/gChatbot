@@ -3,7 +3,6 @@
   <h1 class="text-4xl bg-clip-text text-transparent bg-gradient-to-l from-siteColor-dark to-siteColor-light">
     Gigalogy Chatbot
   </h1>
-  <HelloWorld/>
   
   <div class="fixed bottom-5 right-5 flex flex-col justify-center items-end space-y-1">
     <div v-if="isOpenChat" class="flex justify-center items-center">
@@ -183,7 +182,7 @@ import Vue from 'vue';
 export default {
   components: {
     // Loader: () => import('@/components/Loader.vue')
-    HelloWorld: () => import('@/components/HelloWorld.vue')
+    // HelloWorld: () => import('@/components/HelloWorld.vue')
   },
   data () {
     return {
