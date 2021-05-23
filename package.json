@@ -59,7 +59,11 @@
     "url": "https://github.com/abunesar87/g-chatbot/issues"
   },
   "homepage": "https://github.com/abunesar87/g-chatbot#readme",
-  "main": "./dist/g-chatbot.common.js",
+  "main": "dist/g-chatbot.umd.js",
+  "unpkg": "dist/g-chatbot.min.js",
+  "browser": {
+    "./sfc": "src/App.vue"
+  },
   "author": "abunesar87",
   "license": "ISC"
 }
