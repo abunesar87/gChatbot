@@ -1,6 +1,6 @@
 {
   "name": "@abunesar87/g-chatbot",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name g-chatbot",
@@ -49,6 +49,9 @@
   "repository": {
     "url": "git://github.com/abunesar87/g-chatbot.git"
   },
+  "files": [
+		"dist/*"
+	],
   "browserslist": [
     "> 1%",
     "last 2 versions",
