@@ -1,9 +1,13 @@
 {
   "name": "@abunesar87/g-chatbot",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name g-chatbot",
+		"build": "npm run clean:lib && npm run build:lib && npm run build:wc",
+		"clean:lib": "rimraf dist",
+		"build:lib": "vue-cli-service build --target lib --no-clean --name g-chatbot ./src/components/index.js",
+		"build:wc": "vue-cli-service build --target wc --no-clean --name g-chatbot ./src/components/ChatForm.vue",
+		"prepublish": "npm run lint && npm run build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
