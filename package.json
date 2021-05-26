@@ -1,6 +1,6 @@
 {
   "name": "@abunesar87/g-chatbot",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "scripts": {
     "serve": "vue-cli-service serve",
 		"build": "npm run clean:lib && npm run build:lib && npm run build:lib && npm run build:wc",
