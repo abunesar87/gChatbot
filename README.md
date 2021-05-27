@@ -1,4 +1,4 @@
-# chatbot
+# gChatbot
 
 ## Project setup
 ```
