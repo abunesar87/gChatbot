@@ -1,8 +1,8 @@
 import ChatForm from './ChatForm'
 
 Object.defineProperty(ChatForm, 'install', {
-	configurable: false,
-	enumerable: false,
+	configurable: true,
+	enumerable: true,
 	value(Vue) {
 		Vue.component('ChatForm', ChatForm)
 	}

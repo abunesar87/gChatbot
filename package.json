@@ -10,9 +10,10 @@
   "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build:lib && npm run styles",
-    "build:lib": "vue-cli-service build --target lib --no-clean --name gchatbot src/components/index.js",
-    "styles": "vue-cli-service build --target lib --no-clean --name gchatbot src/css/*"
+    "build": "npm run clean:lib && npm run build:lib && npm run styles",
+    "clean:lib": "rimraf dist",
+    "build:lib": "vue-cli-service build --target lib --no-clean --name gchatbot ./src/components/index.js",
+    "styles": "vue-cli-service build --target lib --no-clean --name gchatbot ./src/css/*"
     
   },
   "dependencies": {
